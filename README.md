@@ -13,6 +13,7 @@ django-admin startproject ecommerce .       # Create django project
 python manage.py runserver                  # Run web server
 python manage.py migrate                    # Migrate database
 python manage.py createsuperuser            # Create superuser
+python manage.py collectstatic              # cached static files of 3rd party to STATIC_ROOT path(settings.py)
 ```
 
 # Reference
